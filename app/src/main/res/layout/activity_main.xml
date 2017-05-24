@@ -10,6 +10,7 @@
         android:text="Bottom"
         android:gravity="center"
         android:textSize="22sp"
+
         android:layout_alignParentBottom="true"/>
 
     <LinearLayout
@@ -48,6 +49,16 @@
                     android:id="@+id/et"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button1"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="button2"/>
 
             </LinearLayout>
         </ScrollView>
